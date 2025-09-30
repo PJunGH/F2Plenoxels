@@ -2,9 +2,9 @@
 <h1>F<sup>2</sup>Plenoxels: Fast Voxel Radiance Fields without Neural Networks for Few-Shot View Synthesis</h1>
 
 <div>
-    Jun Peng</sup>&emsp;
-    Chunyi Chen</sup>&emsp;
-    Yunbiao Liu</sup>
+    Jun Peng&emsp;
+    Chunyi Chen&emsp;
+    Yunbiao Liu
 </div>
 
 </div>
@@ -18,17 +18,18 @@
 </p>
 -->
 
-<div align="center" style="display: flex; justify-content: space-between;">
-   <img src="assets/room_inputs.png" alt="sparse_inputs" width="23.4%%"> <img src="assets/demo_room.gif" alt="framework" width="70%">
+<!--<div style="display: flex; justify-content: space-between;">
+   <img src="assets/room_inputs.png" alt="sparse_inputs" width="19.6%">
+   <img src="assets/demo_room_2x.gif" alt="framework" width="60%">
 </div>
+-->
 
 
-<!--
+
 <center>
    <img src="assets/room_inputs.png" alt="sparse_inputs" width="23.4%">
    <img src="assets/demo_room.gif" alt="framework" width="70%">
 </center>
--->
 
 ## Environmental Setups
 Tested on Windows 10, CUDA 11.8, Python 3.18, PyTorch 1.11.0
@@ -119,6 +120,27 @@ python ./opt/render_imgs.py ./logs/llff_3v/room/ckpt.npz ./data/nerf_llff_data/r
 For running on the whole dataset, please run `./scripts/llff_3v.bat`
 
 
+# Results
+
+Comparison on `Hotdog` scene ([SynergyNeRF](https://github.com/MingyuKim87/SynergyNeRF), [DNGaussian](https://github.com/Fictionarry/DNGaussian), [ReVoRF](https://github.com/HKCLynn/ReVoRF) and Ours from left to right).
+<div style="display: flex; justify-content: space-between;">
+   <img src="assets/hotdog_SynergyNeRF.gif" alt="SynergyNeRF" width="24%">
+   <img src="assets/hotdog_DNGaussian.gif" alt="DNGaussian" width="24%">
+   <img src="assets/hotdog_ReVoRF.gif" alt="ReVoRF" width="24%">
+   <img src="assets/hotdog_Ours.gif" alt="Ours" width="24%">
+</div>
+
+---------------------------------------------------
+
+Comparison on `Fern` scene ([VGOS](https://github.com/SJoJoK/VGOS), [FSGS](https://github.com/VITA-Group/FSGS), [FrugalNerf](https://github.com/linjohnss/FrugalNeRF) and Ours from left to right).
+<div style="display: flex; justify-content: space-between;">
+   <img src="assets/fern_vgos.gif" alt="vgos" width="24%">
+   <img src="assets/fern_fsgs.gif" alt="fsgs" width="24%">
+   <img src="assets/fern_frugalnerf.gif" alt="frugalnerf" width="24%">
+   <img src="assets/fern_ours.gif" alt="ours" width="24%">
+</div>
+
+
 
 
 ## Checklist
@@ -129,9 +151,4 @@ For running on the whole dataset, please run `./scripts/llff_3v.bat`
 
 ## Acknowledgment
 
-
 The code is built upon [Plenoxels](https://github.com/sxyu/svox2) implementation. Thanks for sharing!
-
-
-
-
