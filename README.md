@@ -18,16 +18,17 @@
 </p>
 -->
 
-<!--<div style="display: flex; justify-content: space-between;">
-   <img src="assets/room_inputs.png" alt="sparse_inputs" width="19.6%"> <img src="assets/demo_room_2x.gif" alt="framework" width="70%">
+<div style="display: flex; justify-content: space-between;">
+   <img src="assets/room_inputs.png" alt="sparse_inputs" width="23.4%%"> <img src="assets/demo_room.gif" alt="framework" width="70%">
 </div>
--->
 
 
+<!--
 <center>
    <img src="assets/room_inputs.png" alt="sparse_inputs" width="23.4%">
-   <img src="assets/demo_room.gif" alt="framework" width="60%">
+   <img src="assets/demo_room.gif" alt="framework" width="70%">
 </center>
+-->
 
 ## Environmental Setups
 Tested on Windows 10, CUDA 11.8, Python 3.18, PyTorch 1.11.0
@@ -130,5 +131,6 @@ For running on the whole dataset, please run `./scripts/llff_3v.bat`
 
 
 The code is built upon [Plenoxels](https://github.com/sxyu/svox2) implementation. Thanks for sharing!
+
 
 
