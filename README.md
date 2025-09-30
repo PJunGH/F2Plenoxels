@@ -19,8 +19,7 @@
 -->
 
 <!--<div style="display: flex; justify-content: space-between;">
-   <img src="assets/room_inputs.png" alt="sparse_inputs" width="19.6%">
-   <img src="assets/demo_room_2x.gif" alt="framework" width="60%">
+   <img src="assets/room_inputs.png" alt="sparse_inputs" width="19.6%"> <img src="assets/demo_room_2x.gif" alt="framework" width="70%">
 </div>
 -->
 
@@ -131,4 +130,5 @@ For running on the whole dataset, please run `./scripts/llff_3v.bat`
 
 
 The code is built upon [Plenoxels](https://github.com/sxyu/svox2) implementation. Thanks for sharing!
+
 
