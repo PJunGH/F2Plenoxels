@@ -121,7 +121,7 @@ python ./opt/render_imgs.py ./logs/llff_3v/room/ckpt.npz ./data/nerf_llff_data/r
 For running on the whole dataset, please run `./scripts/llff_3v.bat`
 
 
-# Results
+## Results
 
 Comparison on `Hotdog` scene ([SynergyNeRF](https://github.com/MingyuKim87/SynergyNeRF), [DNGaussian](https://github.com/Fictionarry/DNGaussian), [ReVoRF](https://github.com/HKCLynn/ReVoRF) and Ours from left to right).
 <div style="display: flex; justify-content: space-between;">
@@ -154,4 +154,5 @@ Comparison on `Fern` scene ([VGOS](https://github.com/SJoJoK/VGOS), [FSGS](https
 
 
 The code is built upon [Plenoxels](https://github.com/sxyu/svox2) implementation. Thanks for sharing!
+
 
