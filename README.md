@@ -157,10 +157,10 @@ Comparison on `Fern` and 'Room' scenes ([VGOS](https://github.com/SJoJoK/VGOS), 
 ---------------------------------------------------
 
 <div style="display: flex; justify-content: space-between;">
-   <img src="assets/room_vgos.gif" alt="vgos" width="24%">
-   <img src="assets/room_fsgs.gif" alt="fsgs" width="24%">
-   <img src="assets/room_frugalnerf.gif" alt="frugalnerf" width="24%">
-   <img src="assets/room_ours.gif" alt="ours" width="24%">
+   <img src="assets/room_VGOS.gif" alt="vgos" width="24%">
+   <img src="assets/room_FSGS.gif" alt="fsgs" width="24%">
+   <img src="assets/room_FrugalNeRF.gif" alt="frugalnerf" width="24%">
+   <img src="assets/room_Ours.gif" alt="ours" width="24%">
 </div>
 
 
