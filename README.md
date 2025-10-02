@@ -18,10 +18,12 @@
 </p>
 -->
 
-<center>
-   <img src="assets/leaves_inputs.png" alt="sparse_inputs" width="23.3%">
+
+<div align="center"; style="display: flex; justify-content: space-between;">
+   <img src="assets/leaves_inputs.png" alt="sparse_inputs" width="23.4%">
    <img src="assets/demo_leaves.gif" alt="framework" width="70%">
-</center>
+</div>
+
 
 
 
