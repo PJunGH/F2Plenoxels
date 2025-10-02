@@ -125,7 +125,8 @@ For running on the whole dataset, please run `./scripts/llff_3v.bat`
 
 ## Results
 
-Comparison on `Hotdog` scene ([SynergyNeRF](https://github.com/MingyuKim87/SynergyNeRF), [DNGaussian](https://github.com/Fictionarry/DNGaussian), [ReVoRF](https://github.com/HKCLynn/ReVoRF) and Ours from left to right).
+Comparison on `Hotdog` and `Mic` scenes ([SynergyNeRF](https://github.com/MingyuKim87/SynergyNeRF), [DNGaussian](https://github.com/Fictionarry/DNGaussian), [ReVoRF](https://github.com/HKCLynn/ReVoRF) and Ours from left to right).
+
 <div style="display: flex; justify-content: space-between;">
    <img src="assets/hotdog_SynergyNeRF.gif" alt="SynergyNeRF" width="24%">
    <img src="assets/hotdog_DNGaussian.gif" alt="DNGaussian" width="24%">
@@ -135,12 +136,31 @@ Comparison on `Hotdog` scene ([SynergyNeRF](https://github.com/MingyuKim87/Syner
 
 ---------------------------------------------------
 
-Comparison on `Fern` scene ([VGOS](https://github.com/SJoJoK/VGOS), [FSGS](https://github.com/VITA-Group/FSGS), [FrugalNerf](https://github.com/linjohnss/FrugalNeRF) and Ours from left to right).
+<div style="display: flex; justify-content: space-between;">
+   <img src="assets/mic_SynergyNeRF.gif" alt="SynergyNeRF" width="24%">
+   <img src="assets/mic_DNGaussian.gif" alt="DNGaussian" width="24%">
+   <img src="assets/mic_ReVoRF.gif" alt="ReVoRF" width="24%">
+   <img src="assets/mic_Ours.gif" alt="Ours" width="24%">
+</div>
+
+---------------------------------------------------
+
+Comparison on `Fern` and 'Room' scenes ([VGOS](https://github.com/SJoJoK/VGOS), [FSGS](https://github.com/VITA-Group/FSGS), [FrugalNerf](https://github.com/linjohnss/FrugalNeRF) and Ours from left to right).
+
 <div style="display: flex; justify-content: space-between;">
    <img src="assets/fern_vgos.gif" alt="vgos" width="24%">
    <img src="assets/fern_fsgs.gif" alt="fsgs" width="24%">
    <img src="assets/fern_frugalnerf.gif" alt="frugalnerf" width="24%">
    <img src="assets/fern_ours.gif" alt="ours" width="24%">
+</div>
+
+---------------------------------------------------
+
+<div style="display: flex; justify-content: space-between;">
+   <img src="assets/room_vgos.gif" alt="vgos" width="24%">
+   <img src="assets/room_fsgs.gif" alt="fsgs" width="24%">
+   <img src="assets/room_frugalnerf.gif" alt="frugalnerf" width="24%">
+   <img src="assets/room_ours.gif" alt="ours" width="24%">
 </div>
 
 
