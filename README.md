@@ -50,7 +50,7 @@ Since CUDA 11, CUB is shipped with the toolkit and installing this may lead to b
 
 ## Data Preparation
 
-- Download Blender and LLFF datasets from [link](https://drive.google.com/drive/folders/1cK3UDIJqKAAm7zyrxRYVFJ0BRMgrwhh4).
+- Download Blender (nerf_synthetic.zip) and LLFF (nerf_llff_data.zip) datasets from [link](https://drive.google.com/drive/folders/1cK3UDIJqKAAm7zyrxRYVFJ0BRMgrwhh4).
 
 - Download the preprocessed depths predicted by [VGGT](https://github.com/facebookresearch/vggt) from [link](https://drive.google.com/file/d/1ghOT883-h3wqbdCQBsT9n21hPYURyaWa/view?usp=drive_link).
 
