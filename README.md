@@ -1,11 +1,6 @@
 <div align="center">
 <h1>F<sup>2</sup>Plenoxels: Fast Voxel Radiance Fields without Neural Networks for Few-Shot View Synthesis</h1>
 
-<div>
-    Jun Peng&emsp;
-    Chunyi Chen&emsp;
-    Yunbiao Liu
-</div>
 
 </div>
 
@@ -98,7 +93,7 @@ We conduct our experiments on a single NVIDIA Quodra P5000 GPU (16 GB).
 
 ### Blender dataset
 
-Take `hotdog` scene as an example:
+Take `Hotdog` scene as an example:
 
 ```python
 ## Optimization
@@ -111,7 +106,7 @@ For running on the whole dataset, please run `./scripts/blender_4v.bat`
 
 ### LLFF dataset
 
-Take `room` scene as an example:
+Take `Room` scene as an example:
 
 ```python
 ## Optimization
@@ -121,6 +116,8 @@ python ./opt/opt_fewshot.py ./data/nerf_llff_data/room --gpu_id 0 --train_dir ./
 python ./opt/render_imgs.py ./logs/llff_3v/room/ckpt.npz ./data/nerf_llff_data/room --gpu_id 0 --background_brightness 0.5
 ```
 For running on the whole dataset, please run `./scripts/llff_3v.bat`
+
+We also provide the pretrained checkpoints via [this link](https://drive.google.com/file/d/1moqNylev3dqjfnL8cw7ukVjKyZfGFnmw/view?usp=drive_link).
 
 
 ## Results
@@ -168,8 +165,9 @@ Comparison on `Fern` and 'Room' scenes ([VGOS](https://github.com/SJoJoK/VGOS), 
 
 ## Checklist
 
+
+- [x] Release the paperetrained checkpoints
 - [ ] Release the script for depth acquisition
-- [ ] Release pretrained checkpoints
 
 
 ## Acknowledgment
