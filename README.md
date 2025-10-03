@@ -30,12 +30,12 @@
 -->
 
 ## Environmental Setups
-Tested on Windows 10, CUDA 11.8, Python 3.18, PyTorch 1.11.0
+Tested on Windows 10, CUDA 11.8, Python 3.10, PyTorch 2.0.0
 
 ```cmd
-conda create -n f2plenoxels python=3.8
+conda create -n f2plenoxels python=3.10
 conda activate f2plenoxels
-pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia https://download.pytorch.org/whl/cu113
 pip install -r requirements.txt
 ```
 Install CUDA extensions
