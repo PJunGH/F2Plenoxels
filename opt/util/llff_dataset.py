@@ -31,7 +31,7 @@ from typing import Union, Optional, List
 
 from svox2.utils import convert_to_ndc
 
-import util.myutils
+# import util.myutils
 
 class LLFFDataset(DatasetBase):
     """

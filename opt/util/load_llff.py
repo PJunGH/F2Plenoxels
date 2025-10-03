@@ -6,7 +6,7 @@
 import numpy as np
 import os
 import imageio
-import util.myutils
+# import util.myutils
 
 def get_image_size(path : str):
     """
